@@ -10,8 +10,7 @@ const LandingPage = () => {
             <Header />
             <main>
                 <HeroSection/>
-                <Mains/>
-                
+                <Mains/>                
                 {/* <ProductShowcase /> */}
             </main>
             <Footer/>
