@@ -67,7 +67,8 @@ const Signup = () => {
             }
         } catch(err) {
             console.error('Something went wrong', err);
-            setError(err.message);
+            const serverMessage = err.response?.data?.message || err.response?.data?.error;
+            setError(serverMessage || err.message || "Signup failed. Check the browser Network tab for details.");
         } finally {
             setIsLoading(false);
         }

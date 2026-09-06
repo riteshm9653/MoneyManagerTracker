@@ -1,5 +1,6 @@
 // export const BASE_URL = "http://localhost:8080/api/v1.0";
-export const BASE_URL = "https://spring-backend-3-rn7b.onrender.com/api/v1.0";
+export const BASE_URL = "https://money-manager-spring-boot-backend-3.onrender.com";
+
 const CLOUDINARY_CLOUD_NAME = "dl8ud6rbo";
 
 export const API_ENDPOINTS = {
