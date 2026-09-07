@@ -73,7 +73,7 @@ const Menubar = ({ activeMenu }) => {
                     rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-purple-800
                     focus:ring-offset-2"
                 >
-                    <img src={user?.profileImageUrl} alt="profile" className="w-10 h-10 rounded-full"/>
+                    <img   src={user?.profileImageUrl || '/profile.jpg'}  alt="profile" className="w-10 h-10 rounded-full"/>
                 </button>
 
                 {/* Dropdown Menu */}

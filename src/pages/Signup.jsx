@@ -53,7 +53,7 @@ const Signup = () => {
             //upload image if present
             if (profilePhoto) {
                 const imageUrl = await uploadProfileImage(profilePhoto);
-                profileImageUrl = imageUrl || "";
+                profileImageUrl = imageUrl || "/profile.png";
             }
             const response = await axiosConfig.post(API_ENDPOINTS.REGISTER, {
                 fullName,
